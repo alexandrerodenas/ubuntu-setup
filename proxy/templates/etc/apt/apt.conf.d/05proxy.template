@@ -1,0 +1,4 @@
+Acquire::http::Proxy "${PROXY}";
+Acquire::https::Proxy "${PROXY}";
+Acquire::HTTP::Proxy "${PROXY}";
+Acquire::HTTPS::Proxy "${PROXY}";

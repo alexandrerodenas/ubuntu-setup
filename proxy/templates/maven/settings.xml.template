@@ -1,0 +1,11 @@
+<settings>
+  <proxies>
+    <proxy>
+      <id>thales</id>
+      <active>true</active>
+      <protocol>http</protocol>
+      <host>$PROXY_BASENAME</host>
+      <port>$PROXY_PORT</port>
+    </proxy>
+  </proxies>
+</settings>

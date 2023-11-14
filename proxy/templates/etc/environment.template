@@ -1,0 +1,8 @@
+# Proxy block start -- Do not remove or modify this line --
+http_proxy=${PROXY}
+https_proxy=${PROXY}
+no_proxy=${PROXY_WHITELIST}
+HTTP_PROXY=${PROXY}
+HTTPS_PROXY=${PROXY}
+NO_PROXY=${PROXY_WHITELIST}
+# Proxy block end -- Do not remove or modify this line --

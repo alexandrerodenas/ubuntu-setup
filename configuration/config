@@ -1,0 +1,50 @@
+# Set installation options
+upgrade_package=true
+kernel_headers_install=true
+
+# basic softwares
+basic_softwares_install=true
+basic_softwares="build-essential curl vim snapd apt-transport-https net-tools htop gimp pinta libreoffice ffmpeg"
+
+# Java
+sdkman_java_install=true
+java_version="20-open"
+
+# Node
+nvm_node_install=true
+node_version="20"
+
+# Maven
+maven_install=true
+maven_version=3.9.1
+
+# Git
+git_install=true
+git_user_name="Alexandre RODENAS"
+git_email="alexandre.rodenas@thalesgroups.com"
+
+# IntelliJ idea ultimate
+idea_ultimate_install=true
+
+# SSH server
+openssh_server_install=true
+ssh_service_stop=false
+
+# Docker
+docker_compose_install=true
+docker_service_stop=true
+
+# Ansible
+ansible_install=true
+
+# Spotify
+spotify_install=true
+
+# Brave browser
+brave_browser_install=true
+
+# Sublime Text
+sublime_text_install=true
+
+# Useful aliases
+aliases_install=true

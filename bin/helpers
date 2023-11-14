@@ -1,0 +1,20 @@
+NC='\033[0m' # No Color
+
+function log() {
+  GREEN='\033[0;32m'
+  echo -e "${GREEN}$1${NC}"
+}
+
+function warn() {
+  ORANGE='\033[0;33m'
+  echo -e "${ORANGE}$1${NC}"
+}
+
+function fail() {
+  RED='\033[0;31m'
+  echo -e "${RED}$1${NC}"
+}
+
+function interpretAndCreateTmp() {
+  envsubst <$1 >tmp
+}
