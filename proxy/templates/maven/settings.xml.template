@@ -1,7 +1,7 @@
 <settings>
   <proxies>
     <proxy>
-      <id>thales</id>
+      <id>proxy-name</id>
       <active>true</active>
       <protocol>http</protocol>
       <host>$PROXY_BASENAME</host>
